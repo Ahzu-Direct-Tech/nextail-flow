@@ -1,14 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Button from 'tailwindcss/defaultTheme'
 import NavigationHeader from './blocks/header-navigation'
-import Footer from './blocks/footer-base'
-import Hero from './blocks/hero'
-import Features from './blocks/features-block'
-import CTA1 from './blocks/cta-1'
-import CTA2 from './blocks/cta-2'
-import Hero2 from './blocks/hero-2'
+import Pricingblock from './blocks/pricing-block'
 import Footer2 from './blocks/footer-base-2'
 
 export default function Home() {
@@ -23,11 +17,9 @@ export default function Home() {
       {/**Navigation Header*/}
       <NavigationHeader />
         <div styles="container-sm">
-          <Hero2 />
-          <Features />
-          <CTA2/>
+            <Pricingblock />
         </div>
-      <Footer2 />  
+      <Footer2 />
    </div>  
   )
 }

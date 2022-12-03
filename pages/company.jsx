@@ -11,11 +11,11 @@ import CTA2 from './blocks/cta-2'
 import Hero2 from './blocks/hero-2'
 import Footer2 from './blocks/footer-base-2'
 
-export default function Home() {
+export default function Company() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Nextail Example</title>
+        <title>Our Company</title>
         <meta name="description" content="Example template using Next JS + Tailwind CSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -24,10 +24,8 @@ export default function Home() {
       <NavigationHeader />
         <div styles="container-sm">
           <Hero2 />
-          <Features />
-          <CTA2/>
         </div>
-      <Footer2 />  
+      <Footer2 />
    </div>  
   )
 }
